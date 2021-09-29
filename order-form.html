@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="//cdn.shopify.com/s/files/1/0090/9236/6436/t/7/assets/favicon.png?v=15710722099172434620"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order Form</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="store-name">Mantap Store.io</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-catalog">
+      <h2 class="catalog-title">Let's improve your style!</h2>
+      <div class="container">
+        <div class="product product--catalog">
+          <div class="product-text">
+            <h3 class="product-name">Grey H&M</h3>
+            <p class="product-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+              dolorum cum veritatis, quasi asperiores laboriosam. Accusantium
+              modi cumque optio perferendis esse culpa eos ex expedita i
+            </p>
+            <div class="product-rating">
+              <div class="rate-star">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half" aria-hidden="true"></i>
+              </div>
+              <div class="rate-text">
+                <p class="point">4.8<span class="respond">(490)</span></p>
+              </div>
+            </div>
+            <form action="#" class="product-form">
+              <p class="size-title">Please select your size:</p>
+              <div class="product-size">
+                <div>
+                  <input type="radio" id="s" name="fav_language" value="S" />
+                  <label for="s">S</label><br />
+                </div>
+                <div>
+                  <input type="radio" id="m" name="fav_language" value="M" />
+                  <label for="m">M</label><br />
+                </div>
+                <div>
+                  <input type="radio" id="l" name="fav_language" value="L" />
+                  <label for="l">L</label><br />
+                </div>
+                <div>
+                  <input type="radio" id="xl" name="fav_language" value="XL" />
+                  <label for="xl">XL</label>
+                </div>
+              </div>
+              <div>
+                <label for="alamat">Alamat :</label>
+                <input type="text" id="alamat" />
+              </div>
+              <div class="product-count">
+                <label for="jml">Jumlah Produk :</label>
+                <select name="jumlah" id="jml">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <button class="product-btn">Order Now</button>
+            </form>
+          </div>
+          <div class="product-img">
+            <img
+              src="https://dynamic.zacdn.com/NC4UnyO2WeOmz3fxm6FF_loIMB8=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/hm-1141-0581182-1.jpg"
+              alt="Man with grey t-shirt"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
